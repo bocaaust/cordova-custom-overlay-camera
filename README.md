@@ -10,6 +10,11 @@ Cordova plugin which allows the caller to customise a camera preview, including 
 phonegap plugin add https://github.com/bocaaust/phonegap-custom-overlay-camera.git
 ```
 
+You are going to need to add the following line to your config.xml file
+```
+<plugin spec="https://github.com/bocaaust/phonegap-custom-overlay-camera.git" />
+```
+
 - Add custom images for the capture button and mask to your project. The image locations under the cordova www directory cannot currently be modified.
 
 |         Path           |        Description        |
