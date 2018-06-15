@@ -1,0 +1,29 @@
+{
+    "name": "phonegap-custom-overlay-camera",
+    "version": "1.0.0",
+    "description": "Cordova plugin which allows the caller to customise a camera preview, including a custom button and overlaying a mask image in center.",
+    "main": "index.js",
+    "cordova": {
+      "id": "phonegap-plugin-overlay-camera",
+      "platforms": [
+        "android",
+        "ios"
+      ]
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bocaaust/phonegap-custom-overlay-camera.git"
+    },
+    "keywords": [
+      "cordova"
+    ],
+    "author": "yesir1006",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bocaaust/phonegap-custom-overlay-camera/issues"
+    },
+    "homepage": "https://github.com/bocaaust/phonegap-custom-overlay-camera#readme"
+  }
